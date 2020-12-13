@@ -14,7 +14,7 @@ class PowerDigitSum {
             sum += Integer.parseInt(it.toString())
             print("$it($sum) ")
         }
-        print("]")
+
 
         return sum
     }
