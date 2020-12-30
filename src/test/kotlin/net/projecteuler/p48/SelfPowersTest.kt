@@ -29,4 +29,16 @@ class SelfPowersTest {
         }
         println("\n---------\nTime to find is $timeToFindInMillisecond\n-----------\n")
     }
+
+    @Test
+    fun findLastTenDigitsTest03() {
+        val underTest = SelfPowers()
+
+        val timeToFindInMillisecond = measureTimeMillis {
+            Assert.assertEquals(
+                "9110846700",
+                underTest.findLastTenDigits(10000))
+        }
+        println("\n---------\nTime to find is $timeToFindInMillisecond\n-----------\n")
+    }
 }
