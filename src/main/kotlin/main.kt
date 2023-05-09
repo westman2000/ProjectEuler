@@ -1,3 +1,5 @@
+import net.projecteuler.p11.LargestProductInGrid
+import net.projecteuler.p12.HighlyDivisibleTriangularNumber
 import net.projecteuler.p8.LargestProductSeries
 import java.math.BigInteger
 
@@ -8,7 +10,9 @@ fun main(args: Array<String>) {
 
 //    println("\nsum="+Fibonacci.findSumOfEvenTerms(BigInteger("40"), BigInteger.ZERO, BigInteger.ONE, BigInteger.ZERO) )
 
-    print(LargestProductSeries.getLargestProductInASeries())
+//    print(LargestProductSeries.getLargestProductInASeries())
     // 23,514,624,000.
     // 23 514 624 000
+
+    print(HighlyDivisibleTriangularNumber.getHighlyDivisibleTriangularNumber())
 }
